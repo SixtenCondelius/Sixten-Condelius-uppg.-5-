@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="The contacts page, here you can contact either the news or sports department, you will need to write some personal information."
+        </head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Contacts - The Lorem Ipsum</h1>
+            <nav>
+                <a href="index.html">Headlines</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <form action="thanks.html">
+                <fieldset>
+                    <legend>Personalia</legend>
+
+                    <label>Name
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>E-mail
+                        <input type="email" name="email" required>
+                    </label>
+
+                    <label> Country
+                        <select name="County">
+                            <option value="">(select one)</option>
+                            <option value="1">US</option>
+                            <option value="2">UK</option>
+                            <option value="">AUS</option>
+                            <option value="">NZ</option>
+                            <option value="">CAN</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select</legend>
+
+                    <p>Which department do you wish to contact?</p>
+                    <label>
+                        <input type="checkbox">News
+                    </label>
+                    <label>
+                        <input type="checkbox">Sports
+                    </label>
+
+                    <p>Do you want a replay?</p>
+                    <label>
+                        <input type="radio" name="replay">Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="replay">No
+                    </label>
+                </fieldset>
+
+                <div class="send-button-container">
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <img src="sun.png" alt="sun symbol">
+            London 19°
+        </footer>
+    </div>
+</body>
+
+</html>
